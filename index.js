@@ -107,9 +107,9 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Ema jon server is running');
 });
-app.get('/a', (req, res) => {
-    res.send('Ema 222jon server is running');
-});
+
+
+
 
 app.listen(port, () => {
     console.log('Server running at port', port);
